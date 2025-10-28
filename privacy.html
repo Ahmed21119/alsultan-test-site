@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <title>سياسة الخصوصية — السلطان للخدمات الإلكترونية</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#046c4b" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="font-ar bg-white text-slate-800">
+
+<header class="border-b bg-white/80 backdrop-blur sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex items-center justify-between h-14">
+      <a href="index.html" class="flex items-center gap-3">
+        <picture>
+          <source srcset="assets/img/logo.webp" type="image/webp">
+          <img src="assets/img/logo.png" alt="شعار السلطان" class="w-9 h-9" loading="lazy" />
+        </picture>
+        <span class="font-extrabold text-brand whitespace-nowrap">السلطان للخدمات الإلكترونية</span>
+      </a>
+      <button id="menuBtn" class="lg:hidden inline-flex items-center justify-center p-2 rounded-xl border text-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand transition" aria-controls="primaryNav" aria-expanded="false" aria-label="إظهار القائمة">☰</button>
+      <nav id="primaryNav" class="hidden lg:flex gap-6 items-center" aria-label="التنقل الرئيسي">
+        <a class="nav-link" href="index.html">الرئيسية</a>
+        <a class="nav-link" href="services.html">الخدمات</a>
+        <a class="nav-link" href="packages.html">الباقات</a>
+        <a class="nav-link" href="faq.html">الأسئلة الشائعة</a>
+        <a class="nav-link" href="contact.html">تواصل معنا</a>
+        <a class="nav-link" href="terms.html">الشروط والأحكام</a>
+        <a class="nav-link" href="privacy.html" aria-current="page">سياسة الخصوصية</a>
+        <a class="btn btn-primary" href="https://wa.me/966559044583?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9%20%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9" target="_blank" rel="noopener">استشارة واتساب</a>
+      </nav>
+    </div>
+  </div>
+  <div id="mobileNav" class="lg:hidden hidden border-t">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col gap-3">
+      <a class="nav-link" href="index.html">الرئيسية</a>
+      <a class="nav-link" href="services.html">الخدمات</a>
+      <a class="nav-link" href="packages.html">الباقات</a>
+      <a class="nav-link" href="faq.html">الأسئلة الشائعة</a>
+      <a class="nav-link" href="contact.html">تواصل معنا</a>
+      <a class="nav-link" href="terms.html">الشروط والأحكام</a>
+      <a class="nav-link" href="privacy.html" aria-current="page">سياسة الخصوصية</a>
+      <a class="btn btn-primary w-full text-center" href="https://wa.me/966559044583?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9%20%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9" target="_blank" rel="noopener">استشارة واتساب</a>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-4xl mx-auto px-4 py-10 prose prose-slate">
+  <h1>سياسة الخصوصية</h1>
+  <p>نوضح هنا كيفية جمع البيانات واستخدامها وتخزينها.</p>
+  <h2>المعلومات التي نجمعها</h2>
+  <p>بيانات التواصل والمراسلات عند تعبئة النماذج.</p>
+  <h2>استخدام المعلومات</h2>
+  <p>لتحسين الخدمة والتواصل معك بشأن طلباتك.</p>
+  <h2>حقوقك</h2>
+  <p>يمكنك طلب الوصول أو التحديث أو الحذف وفق الأنظمة المعمول بها.</p>
+</main>
+
+<footer class="mt-16 bg-slate-50 border-t">
+  <div class="max-w-7xl mx-auto px-4 py-10 text-sm text-slate-600">
+    © <span id="year"></span> جميع الحقوق محفوظة — السلطان للخدمات الإلكترونية.
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
